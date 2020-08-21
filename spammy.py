@@ -1,11 +1,10 @@
 import pyautogui, time
 print("\u001b[31mWARNING!!!")
-time.sleep(1)
-print("\u001b[31mWARNING!!!")
-time.sleep(1)
-print("\u001b[31mWARNING!!!")
+
 
 time.sleep(1)
+
+print("\u001b[31m")
 
 print("\u001b[31mDO NOT ABUSE AND OR USE WITHOUT CONSENT OR FOR HARASSMENT")
 
@@ -13,7 +12,7 @@ print("\u001b[31mDO NOT ABUSE AND OR USE WITHOUT CONSENT OR FOR HARASSMENT")
 time.sleep(2)
 
 msg = input("\u001b[33mEnter Your message: ")
-n = input("\u001b[33mHow many times would you like it to be spammed? ?: ")
+n = input("\u001b[33mHow many times would you like it to be spammed?: ")
 
 print("\u001b[34mstarting in:")
 print("\u001b[36m")
@@ -31,3 +30,5 @@ time.sleep(1)
 
 for i in range(0,int(n)):
    	pyautogui.typewrite(msg + '\n')
+
+
