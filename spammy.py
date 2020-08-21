@@ -1,10 +1,10 @@
 import pyautogui
 import time
 
-msg = input("Enter Your message: ")
-n = input("How many times would you like it to be spammed? ?: ")
+msg = input("\u001b[33mEnter Your message: ")
+n = input("\u001b[33mHow many times would you like it to be spammed? ?: ")
 
-print("t minus")
+print("\u001b[34mstarting in:")
 
 count = 5
 while(count != 0):
